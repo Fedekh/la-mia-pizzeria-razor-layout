@@ -14,7 +14,8 @@ Svolgeteli tutti all’interno della view Index del controller HomeController ch
 — SECONDA PARTE —-
 Per la seconda parte, ritornate sul progetto sul quale avete lavorato la scorsa volta.
 Usate questo progetto per fare esercizio con i layout, perciò aprite il progetto della vostra pizzeria in cui lo avevate lasciato e fate esperimenti con i layout.
-Create dunque un nuovo layout e inserite al suo interno il codice che secondo voi definisce lo scheletro dell’applicazione e che dovrà essere utilizzato in altre pagine future del vostro progetto.
+Create dunque un nuovo layout e inserite al suo interno il codice che secondo voi definisce lo scheletro dell’applicazione e
+che dovrà essere utilizzato in altre pagine future del vostro progetto.
 Buon lavoro!! 🙂
 
 SNACK DELLA PRIMA PARTE DELL'ESERCIZIO:
@@ -27,6 +28,6 @@ Contare quante volte la lettera a è presente nalla frase "nel mezzo del cammin 
 Creare una List<int> di 20 numeri interi (generati random da 1 a 90, 1 e 90 inclusi) e mostrare in pagina solo i numeri compresi tra 20 e 70
 Stampare in pagina la data e l'ora attuale (usando la classe DateTime) con il formato anno-mese-giorno ore:minuti:secondi
 Partendo dalla data di oggi (usando la classe DateTime) stampare in pagina
-a. la data di 7 giorni fa
+a. la data di 7 giorni fawwwww
 b. che giorno della settimana è oggi (il risultato dovrà essere il nome del giorno (Lunedì, Martedì, ...)
 c. che giorno della settimana sarà nello stesso giorno e mese di oggi ma tra un anno (il risultato dovrà essere il nome del giorno (Lunedì, Martedì, .. nuova pagina si troverà all'indirizzo /Home/UserIndex del vostro sito. Potete usare questo link per i vostri <a> tag.
