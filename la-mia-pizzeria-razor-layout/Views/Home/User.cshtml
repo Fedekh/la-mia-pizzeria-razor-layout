@@ -1,0 +1,30 @@
+﻿@using la_mia_pizzeria_razor_layout.Classes
+@model List<Pizza>
+
+<section class="my-5">
+    Ecco le pizze della pizzeria sottozero:
+
+    <div class="my-5 container">
+        <div class="row">
+            <div class="row row-cols-3 g-4">
+                @foreach (Pizza pizza in Model)
+                {
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="@pizza.Photo" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">@pizza.Name</h5>
+                                <p class="card-text">@pizza.Description</p>
+                                <p class="card-text">@pizza.GetPrice() €</p>
+                                <div class="card-footer">
+                                    <a href="@Url.Action("PizzaDetails", "Home", new { id = pizza.Id })" class="btn btn-primary">Dettagli</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</section>

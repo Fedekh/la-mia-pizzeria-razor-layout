@@ -1,0 +1,30 @@
+﻿@using la_mia_pizzeria_razor_layout.Classes
+@model List<Pizza>
+
+<div class="section my-5">
+
+    <table class="table table-striped align-middle">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Nome</th>
+                <th scope="col">Descrizione</th>
+                <th scope="col">Prezzo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Pizza pizza in Model)
+            {
+                <tr>
+                    <th scope="row">
+                     <img src="@pizza.Photo" width="200">
+                      
+                    </th>
+                    <td>@pizza.Name</td>
+                    <td>@pizza.Description</td>
+                    <td>@pizza.GetPrice() €</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
