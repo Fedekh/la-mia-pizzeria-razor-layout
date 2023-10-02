@@ -20,3 +20,8 @@ html {
   min-height: 100%;
 }
 
+a{
+    text-decoration:none;
+    color:white;
+}
+
